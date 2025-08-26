@@ -409,7 +409,7 @@ def main():
         return
     
     # Run the server using stdio transport
-    mcp.run(transport="streamable-http")
+    mcp.run(transport="stdio")
 
 
 if __name__ == "__main__":
