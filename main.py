@@ -43,7 +43,7 @@ app.mount("/", mcp_server)
 
 def main():
     """Main entry point for the MCP server."""
-    uvicorn.run(app, host="localhost", port=settings.PORT, log_level="debug")
+    uvicorn.run(app, host="0.0.0.0", port=settings.PORT, log_level="debug")
 
 if __name__ == "__main__":
     main()
