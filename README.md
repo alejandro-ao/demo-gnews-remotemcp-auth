@@ -8,13 +8,6 @@ A Model Context Protocol (MCP) server built on [FastAPI](https://fastapi.tiangol
 - **`search_news`** - Search for news articles using keywords with advanced filtering
 - **`get_top_headlines`** - Get trending news articles by category
 
-### 📚 Resources  
-- **`gnews://supported-languages`** - List of supported language codes
-- **`gnews://supported-countries`** - List of supported country codes
-- **`gnews://query-syntax`** - Comprehensive guide to search query syntax
-
-### 🎯 Prompts
-- **`create_news_search_prompt`** - Generate comprehensive news research prompts for specific topics
 
 ## Installation & Setup
 
