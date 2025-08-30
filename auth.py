@@ -56,7 +56,7 @@ class AuthMiddleware(BaseHTTPMiddleware):
             
             required_scopes = []
             if is_tool_call:
-                required_scopes = ["search:read"] # get required scope for your tool
+                required_scopes = ["gnews:read"] # get required scope for your tool
                 validation_options.required_scopes = required_scopes  
             
             try:
